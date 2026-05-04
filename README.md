@@ -1,5 +1,8 @@
 # Lithify
 
+[![CI](https://github.com/hhllhhyyds/lithify/actions/workflows/ci.yml/badge.svg)](https://github.com/hhllhhyyds/lithify/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/hhllhhyyds/lithify/branch/main/graph/badge.svg)](https://app.codecov.io/gh/hhllhhyyds/lithify)
+
 **An AI agent that evolves. Experience settles into skill, skill compresses into memory, memory crystallizes into tools.**
 
 Lithify is a self-evolving CLI agent built on a four-layer memory architecture. It grows more capable the more you use it—without burning more context.
