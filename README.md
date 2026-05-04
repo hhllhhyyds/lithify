@@ -79,12 +79,12 @@ The full pipeline runs continuously.
 - **Simple stack.** No distributed systems, no cloud dependencies. SQLite, local files, embeddings on disk. Keep it runnable on a laptop.
 - **Every component maps to the architecture.** If a feature doesn't fit one of the four layers, question whether it belongs.
 
-## Tech Stack (tentative)
+## Tech Stack
 
-- **Runtime:** TypeScript (Node.js) or Python — TBD based on ecosystem fit
+- **Runtime:** Rust
 - **LLM:** Anthropic API (Claude), with provider abstraction for others
-- **Vector store:** SQLite + local embeddings, or LanceDB
-- **Tool sandbox:** Docker or isolated subprocess
+- **Vector store:** SQLite + local embeddings (`pgvector` / `sqlite-vec`)
+- **Tool sandbox:** Wasm sandbox or isolated subprocess
 
 ## Inspired by
 
