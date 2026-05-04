@@ -22,6 +22,9 @@ Ultra-long-term Muscle Memory (Tool) ← zero-context invocation
 
 Read the full architecture: [`evolution-en.md`](./evolution-en.md) | [`evolution-zh.md`](./evolution-zh.md)
 
+Development workflow: [`CLAUDE.md`](./CLAUDE.md) | [`docs/AI_WORKFLOW.md`](docs/AI_WORKFLOW.md)
+Tech stack details: [`docs/TECH_STACK.md`](docs/TECH_STACK.md)
+
 ## MVP Scope
 
 A minimal CLI agent you can use as a daily coding assistant, with all four memory layers wired end-to-end:
@@ -44,6 +47,7 @@ A working CLI agent loop with basic tool calling.
 - [ ] LLM provider integration (Anthropic API to start)
 - [ ] Basic tool system (file read/write, shell execution)
 - [ ] Skill loader: read markdown files from a `skills/` directory, inject into system prompt
+- [ ] Skill self-modification: agent can update skill files through conversation (append new techniques, fix outdated steps, refine instructions)
 
 ### Phase 2: Skill → RAG
 
@@ -84,7 +88,7 @@ The full pipeline runs continuously.
 - **Runtime:** Rust
 - **LLM:** Anthropic API (Claude), with provider abstraction for others
 - **Vector store:** SQLite + local embeddings (`pgvector` / `sqlite-vec`)
-- **Tool sandbox:** Wasm sandbox or isolated subprocess
+- **Tool sandbox:** Isolated subprocess
 
 ## Inspired by
 
