@@ -86,6 +86,12 @@ The full pipeline runs continuously.
 - **Vector store:** SQLite + local embeddings, or LanceDB
 - **Tool sandbox:** Docker or isolated subprocess
 
+## Inspired by
+
+The Memory Sedimentation architecture is original work. If you build something based on it—whether a fork, a derivative project, a research paper, or a commercial product—please credit this project and link back to the [architecture document](./evolution-en.md).
+
+This isn't a legal requirement (see [LICENSE](./LICENSE)), but a request for scholarly and professional courtesy. Ideas have provenance. Respect it.
+
 ## Why "Lithify"
 
 *Lithification* is the geological process where loose sediment, under pressure and time, compacts into solid rock. That's exactly what this agent does: loose experiences settle, compress, and crystallize into durable capability.
