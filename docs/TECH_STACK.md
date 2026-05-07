@@ -7,7 +7,7 @@
 | 语言 | Rust 2024 edition | 内存安全、零成本抽象、async 一等公民；2024 edition 带来 `impl Trait` 位置扩展等改进 |
 | 异步运行时 | tokio | Rust 异步生态事实标准 |
 | 序列化 | serde + serde_json | Rust 序列化标配 |
-| LLM API | Anthropic SDK + reqwest | Claude 模型，SDK 封装 + 底层 HTTP 回退 |
+| LLM API | reqwest（裸 HTTP） | Anthropic Messages API，raw HTTP 调用，无 SDK 依赖 |
 | 向量存储 | sqlite-vec | 嵌入式、零运维，与 SQLite 共用存储层 |
 | Embedding | fastembed / local 模型 | 本地推理，无需外部 API |
 | 沙箱执行 | tokio::process | 子进程模式，简单可靠，无需 Wasm 运行时 |
