@@ -6,3 +6,8 @@ license.workspace = true
 
 [dependencies]
 lithify-core = { path = "../core" }
+async-trait = { workspace = true }
+tokio = { workspace = true, features = ["process", "time"] }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["rt", "macros"] }
