@@ -185,8 +185,8 @@
 
 | 任务 | 状态 | 分支 |
 |------|------|------|
-| 1. Core Traits | 🚧 | `feat/01-core-traits` |
-| 2. LLM Client | ⬜ | `feat/02-llm-client` |
+| 1. Core Traits | ✅ | `feat/01-core-traits` |
+| 2. LLM Client | 🚧 | `feat/02-llm-client` |
 | 3. Sandbox | ⬜ | `feat/03-sandbox` |
 | 4. Basic Tools | ⬜ | `feat/04-basic-tools` |
 | 5. Skill System | ⬜ | `feat/05-skill-system` |
