@@ -1,9 +1,0 @@
-[package]
-name = "lithify-tools"
-version.workspace = true
-edition.workspace = true
-license.workspace = true
-
-[dependencies]
-lithify-core = { path = "../core" }
-lithify-sandbox = { path = "../sandbox" }
